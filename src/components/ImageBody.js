@@ -19,7 +19,7 @@ function ImageBody() {
   };
 
   return (
-    <div className="h-ful bg-slate-200">
+    <div className=" bg-slate-200 w-full mt-14 absolute">
       <div className="flex justify-center items-center">
         <input
           className=" my-6 w-5/12 p-2 rounded-lg text-xl"

@@ -9,7 +9,7 @@ function ImageCard({ imageinfo }) {
             <img
               className="w-[200px] h-[200px] object-cover rounded-lg shadow-lg m-4"
               src={`https://farm${image.farm}.staticflickr.com/${image.server}/${image.id}_${image.secret}_m.jpg`}
-            />
+             />
           </div>
         );
       })}
